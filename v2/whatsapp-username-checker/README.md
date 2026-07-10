@@ -117,3 +117,51 @@ Verifica automaticamente se usernames do WhatsApp estão disponíveis ou não.
 - **Se o programa parar no meio:** é só rodar o `iniciar.bat` de novo — ele continua de onde parou automaticamente
 - **Usernames válidos:** entre 6 e 25 caracteres, apenas letras, números e underline (_)
 - **Não acelere demais:** o programa já tem pausas automáticas para evitar bloqueio do WhatsApp
+
+- ---
+
+## Usar dois emuladores ao mesmo tempo (mais rápido)
+
+Rodar com 2 emuladores divide a lista ao meio e termina em metade do tempo.
+
+**O que é necessário:**
+- Dois emuladores criados e rodando no Android Studio
+- WhatsApp instalado e logado em cada um — com **números de telefone diferentes** (não dá usar o mesmo número nos dois)
+
+**Como configurar o segundo emulador:**
+1. No Android Studio → **Tools → Device Manager → "+"**
+2. Crie outro Pixel 6 com Android 13 igual ao primeiro
+3. Inicie ele clicando no ▶
+4. Instale o WhatsApp (arraste o `.apk`) e faça login com um número diferente
+
+**Como verificar os nomes dos emuladores:**
+1. Abra o Prompt de Comando e digite:
+   ```
+   adb devices
+   ```
+2. Vai aparecer algo como:
+   ```
+   emulator-5554   device
+   emulator-5556   device
+   ```
+
+**Como rodar com dois emuladores:**
+1. Abra o Prompt de Comando na pasta do programa
+2. Inicie o Appium primeiro:
+   ```
+   set ANDROID_HOME=%LOCALAPPDATA%\Android\Sdk && appium
+   ```
+3. Abra outro Prompt de Comando na mesma pasta e rode:
+   ```
+   python parallel_runner.py --workers 2 --devices emulator-5554 emulator-5556
+   ```
+4. Navegue até a tela de username nos **dois emuladores** quando pedido
+5. Os resultados vão para o mesmo `results.csv` automaticamente
+
+| Quantidade de emuladores | Tempo estimado para 46.000 nicks |
+|---|---|
+| 1 emulador | ~26 horas |
+| 2 emuladores | ~13 horas |
+| 3 emuladores | ~9 horas |
+| 4 emuladores | ~6 horas |
+
