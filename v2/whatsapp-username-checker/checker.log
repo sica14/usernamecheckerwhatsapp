@@ -1,0 +1,1303 @@
+2026-07-10 17:45:22,847  INFO     Loaded 12 usernames from 'usernames.txt'
+2026-07-10 17:45:22,847  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 17:46:56,842  INFO     Loaded 12 usernames from 'usernames.txt'
+2026-07-10 17:46:56,842  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 17:49:12,981  INFO     Loaded 12 usernames from 'usernames.txt'
+2026-07-10 17:49:12,981  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 17:50:03,108  ERROR    Fatal error during batch: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\Gabriel\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:28:16)
+    at async runCommandPromise (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+Traceback (most recent call last):
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 202, in run_batch
+    self._go_to_username_screen()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 105, in _go_to_username_screen
+    self.driver.find_element(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        AppiumBy.ANDROID_UIAUTOMATOR,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'new UiScrollable(new UiSelector().scrollable(true))'
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        '.scrollIntoView(new UiSelector().text("Username"))'
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).click()
+    ^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\webdriver.py", line 381, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\errorhandler.py", line 125, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\Gabriel\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:28:16)
+    at async runCommandPromise (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-07-10 17:50:03,110  INFO     ──────────────────────────────────────────────────
+2026-07-10 17:50:03,110  INFO     Done. Checked 0 usernames.
+2026-07-10 17:50:03,111  INFO     Available : 0
+2026-07-10 17:50:03,111  INFO     Taken     : 0
+2026-07-10 17:50:03,111  INFO     Invalid   : 0
+2026-07-10 17:50:03,111  INFO     Errors    : 0
+2026-07-10 17:50:03,111  INFO     Results saved to: results.csv
+2026-07-10 17:51:41,268  INFO     Loaded 5 usernames from 'usernames.txt'
+2026-07-10 17:51:41,268  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 17:52:26,732  ERROR    Fatal error during batch: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\Gabriel\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:28:16)
+    at async runCommandPromise (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+Traceback (most recent call last):
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 202, in run_batch
+    self._go_to_username_screen()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 105, in _go_to_username_screen
+    self.driver.find_element(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        AppiumBy.ANDROID_UIAUTOMATOR,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'new UiScrollable(new UiSelector().scrollable(true))'
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        '.scrollIntoView(new UiSelector().text("Username"))'
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).click()
+    ^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\webdriver.py", line 381, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\errorhandler.py", line 125, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\Gabriel\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\find.js:62:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:12:16)
+    at async AndroidUiautomator2Driver.findElement (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\find.js:28:16)
+    at async runCommandPromise (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:119:24)
+2026-07-10 17:52:26,734  INFO     ──────────────────────────────────────────────────
+2026-07-10 17:52:26,734  INFO     Done. Checked 0 usernames.
+2026-07-10 17:52:26,734  INFO     Available : 0
+2026-07-10 17:52:26,735  INFO     Taken     : 0
+2026-07-10 17:52:26,735  INFO     Invalid   : 0
+2026-07-10 17:52:26,735  INFO     Errors    : 0
+2026-07-10 17:52:26,735  INFO     Results saved to: results.csv
+2026-07-10 17:55:11,846  INFO     Loaded 6 usernames from 'usernames.txt'
+2026-07-10 17:55:11,846  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 17:57:17,899  INFO     v2gay                           →  ERROR
+2026-07-10 17:57:28,812  INFO     knife                           →  ERROR
+2026-07-10 17:57:31,313  INFO     ──────────────────────────────────────────────────
+2026-07-10 17:57:31,313  INFO     Done. Checked 2 usernames.
+2026-07-10 17:57:31,313  INFO     Available : 0
+2026-07-10 17:57:31,313  INFO     Taken     : 0
+2026-07-10 17:57:31,313  INFO     Invalid   : 0
+2026-07-10 17:57:31,314  INFO     Errors    : 2
+2026-07-10 17:57:31,314  INFO     Results saved to: results.csv
+2026-07-10 18:04:01,033  INFO     Loaded 6 usernames from 'usernames.txt'
+2026-07-10 18:04:01,033  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 18:04:27,111  INFO     v2gay                           →  AVAILABLE
+2026-07-10 18:04:37,961  INFO     knife                           →  AVAILABLE
+2026-07-10 18:04:40,462  INFO     ──────────────────────────────────────────────────
+2026-07-10 18:04:40,463  INFO     Done. Checked 2 usernames.
+2026-07-10 18:04:40,463  INFO     Available : 2
+2026-07-10 18:04:40,463  INFO     Taken     : 0
+2026-07-10 18:04:40,463  INFO     Invalid   : 0
+2026-07-10 18:04:40,463  INFO     Errors    : 0
+2026-07-10 18:04:40,463  INFO     Results saved to: results.csv
+2026-07-10 18:04:40,463  INFO     
+Available usernames:
+2026-07-10 18:04:40,463  INFO       ✓  v2gay
+2026-07-10 18:04:40,463  INFO       ✓  knife
+2026-07-10 18:08:05,958  INFO     Loaded 6 usernames from 'usernames.txt'
+2026-07-10 18:08:05,958  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 18:08:24,553  INFO     v2gay                           →  AVAILABLE
+2026-07-10 18:08:35,393  INFO     knife                           →  AVAILABLE
+2026-07-10 18:08:37,894  INFO     ──────────────────────────────────────────────────
+2026-07-10 18:08:37,894  INFO     Done. Checked 2 usernames.
+2026-07-10 18:08:37,894  INFO     Available : 2
+2026-07-10 18:08:37,894  INFO     Taken     : 0
+2026-07-10 18:08:37,894  INFO     Invalid   : 0
+2026-07-10 18:08:37,894  INFO     Errors    : 0
+2026-07-10 18:08:37,894  INFO     Results saved to: results.csv
+2026-07-10 18:08:37,894  INFO     
+Available usernames:
+2026-07-10 18:08:37,894  INFO       ✓  v2gay
+2026-07-10 18:08:37,895  INFO       ✓  knife
+2026-07-10 18:08:57,420  INFO     Loaded 6 usernames from 'usernames.txt'
+2026-07-10 18:08:57,421  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 18:09:12,173  INFO     v2gay                           →  AVAILABLE
+2026-07-10 18:09:22,972  INFO     knife                           →  TAKEN
+2026-07-10 18:09:25,473  INFO     ──────────────────────────────────────────────────
+2026-07-10 18:09:25,474  INFO     Done. Checked 2 usernames.
+2026-07-10 18:09:25,474  INFO     Available : 1
+2026-07-10 18:09:25,474  INFO     Taken     : 1
+2026-07-10 18:09:25,474  INFO     Invalid   : 0
+2026-07-10 18:09:25,474  INFO     Errors    : 0
+2026-07-10 18:09:25,474  INFO     Results saved to: results.csv
+2026-07-10 18:09:25,474  INFO     
+Available usernames:
+2026-07-10 18:09:25,474  INFO       ✓  v2gay
+2026-07-10 18:11:39,679  INFO     Loaded 46660 usernames from 'usernames.txt'
+2026-07-10 18:11:39,679  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 18:11:56,324  INFO     aaa                             →  TAKEN
+2026-07-10 18:12:07,028  INFO     aab                             →  TAKEN
+2026-07-10 18:12:17,885  INFO     aac                             →  TAKEN
+2026-07-10 18:12:28,724  INFO     aad                             →  TAKEN
+2026-07-10 18:12:39,573  INFO     aae                             →  TAKEN
+2026-07-10 18:12:50,461  INFO     aaf                             →  TAKEN
+2026-07-10 18:13:01,475  INFO     aag                             →  TAKEN
+2026-07-10 18:13:12,320  INFO     aah                             →  TAKEN
+2026-07-10 18:13:23,141  INFO     aai                             →  TAKEN
+2026-07-10 18:13:33,975  INFO     aaj                             →  TAKEN
+2026-07-10 18:13:45,088  INFO     aak                             →  AVAILABLE
+2026-07-10 18:13:55,906  INFO     aal                             →  TAKEN
+2026-07-10 18:14:06,971  INFO     aam                             →  TAKEN
+2026-07-10 18:14:17,820  INFO     aan                             →  TAKEN
+2026-07-10 18:14:28,721  INFO     aao                             →  TAKEN
+2026-07-10 18:14:39,544  INFO     aap                             →  TAKEN
+2026-07-10 18:14:50,386  INFO     aaq                             →  TAKEN
+2026-07-10 18:15:01,193  INFO     aar                             →  TAKEN
+2026-07-10 18:15:12,010  INFO     aas                             →  AVAILABLE
+2026-07-10 18:15:22,823  INFO     aat                             →  TAKEN
+2026-07-10 18:15:33,672  INFO     aau                             →  AVAILABLE
+2026-07-10 18:15:44,453  INFO     aav                             →  TAKEN
+2026-07-10 18:15:55,287  INFO     aaw                             →  AVAILABLE
+2026-07-10 18:16:06,102  INFO     aax                             →  TAKEN
+2026-07-10 18:16:16,919  INFO     aay                             →  TAKEN
+2026-07-10 18:16:27,778  INFO     aaz                             →  TAKEN
+2026-07-10 18:16:38,609  INFO     aa0                             →  TAKEN
+2026-07-10 18:16:49,253  INFO     aa1                             →  TAKEN
+2026-07-10 18:17:00,070  INFO     aa2                             →  TAKEN
+2026-07-10 18:17:10,854  INFO     aa3                             →  TAKEN
+2026-07-10 18:17:21,668  INFO     aa4                             →  AVAILABLE
+2026-07-10 18:17:32,507  INFO     aa5                             →  AVAILABLE
+2026-07-10 18:17:43,303  INFO     aa6                             →  TAKEN
+2026-07-10 18:17:54,139  INFO     aa7                             →  AVAILABLE
+2026-07-10 18:18:04,871  INFO     aa8                             →  TAKEN
+2026-07-10 18:18:15,710  INFO     aa9                             →  TAKEN
+2026-07-10 18:18:26,555  INFO     aba                             →  TAKEN
+2026-07-10 18:18:37,386  INFO     abb                             →  AVAILABLE
+2026-07-10 18:18:48,241  INFO     abc                             →  AVAILABLE
+2026-07-10 18:18:59,038  INFO     abd                             →  TAKEN
+2026-07-10 18:18:59,930  INFO     ──────────────────────────────────────────────────
+2026-07-10 18:18:59,930  INFO     Done. Checked 40 usernames.
+2026-07-10 18:18:59,930  INFO     Available : 9
+2026-07-10 18:18:59,930  INFO     Taken     : 31
+2026-07-10 18:18:59,930  INFO     Invalid   : 0
+2026-07-10 18:18:59,930  INFO     Errors    : 0
+2026-07-10 18:18:59,931  INFO     Results saved to: results.csv
+2026-07-10 18:18:59,931  INFO     
+Available usernames:
+2026-07-10 18:18:59,931  INFO       ✓  aak
+2026-07-10 18:18:59,931  INFO       ✓  aas
+2026-07-10 18:18:59,931  INFO       ✓  aau
+2026-07-10 18:18:59,931  INFO       ✓  aaw
+2026-07-10 18:18:59,931  INFO       ✓  aa4
+2026-07-10 18:18:59,931  INFO       ✓  aa5
+2026-07-10 18:18:59,931  INFO       ✓  aa7
+2026-07-10 18:18:59,931  INFO       ✓  abb
+2026-07-10 18:18:59,931  INFO       ✓  abc
+2026-07-10 18:19:21,752  INFO     Loaded 46660 usernames from 'usernames.txt'
+2026-07-10 18:19:21,753  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 18:19:46,460  INFO     aaa                             →  TAKEN
+2026-07-10 18:19:58,441  INFO     aab                             →  TAKEN
+2026-07-10 18:20:10,357  INFO     aac                             →  TAKEN
+2026-07-10 18:20:22,257  INFO     aad                             →  TAKEN
+2026-07-10 18:20:34,188  INFO     aae                             →  TAKEN
+2026-07-10 18:20:46,092  INFO     aaf                             →  TAKEN
+2026-07-10 18:20:58,024  INFO     aag                             →  TAKEN
+2026-07-10 18:21:10,156  INFO     aah                             →  TAKEN
+2026-07-10 18:21:22,070  INFO     aai                             →  TAKEN
+2026-07-10 18:21:34,011  INFO     aaj                             →  TAKEN
+2026-07-10 18:21:46,026  INFO     aak                             →  TAKEN
+2026-07-10 18:21:57,954  INFO     aal                             →  TAKEN
+2026-07-10 18:22:09,782  INFO     aam                             →  TAKEN
+2026-07-10 18:22:13,827  INFO     ──────────────────────────────────────────────────
+2026-07-10 18:22:13,827  INFO     Done. Checked 13 usernames.
+2026-07-10 18:22:13,827  INFO     Available : 0
+2026-07-10 18:22:13,827  INFO     Taken     : 13
+2026-07-10 18:22:13,827  INFO     Invalid   : 0
+2026-07-10 18:22:13,827  INFO     Errors    : 0
+2026-07-10 18:22:13,827  INFO     Results saved to: results.csv
+2026-07-10 18:22:59,497  INFO     Loaded 46660 usernames from 'usernames.txt'
+2026-07-10 18:22:59,498  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 18:23:03,406  INFO     Resuming — skipping 13 already-checked usernames.
+2026-07-10 18:23:03,410  INFO     46643 usernames to check.
+2026-07-10 18:23:28,575  INFO     aan                             →  TAKEN
+2026-07-10 18:23:32,071  INFO     aao                             →  TAKEN
+2026-07-10 18:23:35,559  INFO     aap                             →  TAKEN
+2026-07-10 18:23:39,055  INFO     aaq                             →  TAKEN
+2026-07-10 18:23:42,545  INFO     aar                             →  TAKEN
+2026-07-10 18:23:46,064  INFO     aas                             →  TAKEN
+2026-07-10 18:23:49,568  INFO     aat                             →  TAKEN
+2026-07-10 18:23:54,939  INFO     aau                             →  TAKEN
+2026-07-10 18:23:58,444  INFO     aav                             →  TAKEN
+2026-07-10 18:24:02,299  INFO     aaw                             →  TAKEN
+2026-07-10 18:24:05,835  INFO     aax                             →  TAKEN
+2026-07-10 18:24:09,386  INFO     aay                             →  TAKEN
+2026-07-10 18:24:12,889  INFO     aaz                             →  TAKEN
+2026-07-10 18:24:16,413  INFO     aa0                             →  TAKEN
+2026-07-10 18:24:20,028  INFO     aa1                             →  TAKEN
+2026-07-10 18:24:23,564  INFO     aa2                             →  TAKEN
+2026-07-10 18:24:27,427  INFO     aa3                             →  TAKEN
+2026-07-10 18:24:30,954  INFO     aa4                             →  TAKEN
+2026-07-10 18:24:34,467  INFO     aa5                             →  TAKEN
+2026-07-10 18:24:37,997  INFO     aa6                             →  TAKEN
+2026-07-10 18:24:41,508  INFO     aa7                             →  TAKEN
+2026-07-10 18:24:45,064  INFO     aa8                             →  TAKEN
+2026-07-10 18:24:48,580  INFO     aa9                             →  TAKEN
+2026-07-10 18:24:52,108  INFO     aba                             →  TAKEN
+2026-07-10 18:24:55,631  INFO     abb                             →  TAKEN
+2026-07-10 18:24:59,203  INFO     abc                             →  TAKEN
+2026-07-10 18:25:03,007  INFO     abd                             →  TAKEN
+2026-07-10 18:25:06,548  INFO     abe                             →  TAKEN
+2026-07-10 18:25:10,190  INFO     abf                             →  TAKEN
+2026-07-10 18:25:13,782  INFO     abg                             →  TAKEN
+2026-07-10 18:25:17,326  INFO     abh                             →  TAKEN
+2026-07-10 18:25:20,839  INFO     abi                             →  TAKEN
+2026-07-10 18:25:24,359  INFO     abj                             →  TAKEN
+2026-07-10 18:25:27,848  INFO     abk                             →  TAKEN
+2026-07-10 18:25:31,365  INFO     abl                             →  TAKEN
+2026-07-10 18:25:34,881  INFO     abm                             →  TAKEN
+2026-07-10 18:25:38,397  INFO     abn                             →  TAKEN
+2026-07-10 18:25:41,926  INFO     abo                             →  TAKEN
+2026-07-10 18:25:45,460  INFO     abp                             →  TAKEN
+2026-07-10 18:25:49,077  INFO     abq                             →  TAKEN
+2026-07-10 18:25:52,582  INFO     abr                             →  TAKEN
+2026-07-10 18:25:56,334  INFO     abs                             →  TAKEN
+2026-07-10 18:25:59,884  INFO     abt                             →  TAKEN
+2026-07-10 18:26:03,448  INFO     abu                             →  TAKEN
+2026-07-10 18:26:06,971  INFO     abv                             →  TAKEN
+2026-07-10 18:26:10,487  INFO     abw                             →  TAKEN
+2026-07-10 18:26:14,016  INFO     abx                             →  TAKEN
+2026-07-10 18:26:17,530  INFO     aby                             →  TAKEN
+2026-07-10 18:26:21,480  INFO     abz                             →  TAKEN
+2026-07-10 18:26:25,013  INFO     ab0                             →  TAKEN
+2026-07-10 18:26:28,539  INFO     ab1                             →  TAKEN
+2026-07-10 18:26:32,074  INFO     ab2                             →  TAKEN
+2026-07-10 18:26:35,585  INFO     ab3                             →  TAKEN
+2026-07-10 18:26:39,111  INFO     ab4                             →  TAKEN
+2026-07-10 18:26:42,643  INFO     ab5                             →  TAKEN
+2026-07-10 18:26:46,152  INFO     ab6                             →  TAKEN
+2026-07-10 18:26:49,664  INFO     ab7                             →  TAKEN
+2026-07-10 18:26:53,188  INFO     ab8                             →  TAKEN
+2026-07-10 18:26:56,695  INFO     ab9                             →  TAKEN
+2026-07-10 18:27:00,777  INFO     aca                             →  TAKEN
+2026-07-10 18:27:04,315  INFO     acb                             →  TAKEN
+2026-07-10 18:27:07,866  INFO     acc                             →  TAKEN
+2026-07-10 18:27:11,418  INFO     acd                             →  TAKEN
+2026-07-10 18:27:14,738  INFO     ace                             →  AVAILABLE
+2026-07-10 18:27:18,243  INFO     acf                             →  TAKEN
+2026-07-10 18:27:21,776  INFO     acg                             →  TAKEN
+2026-07-10 18:27:25,286  INFO     ach                             →  TAKEN
+2026-07-10 18:27:28,799  INFO     aci                             →  TAKEN
+2026-07-10 18:27:32,315  INFO     acj                             →  TAKEN
+2026-07-10 18:27:35,819  INFO     ack                             →  TAKEN
+2026-07-10 18:27:39,327  INFO     acl                             →  TAKEN
+2026-07-10 18:27:42,836  INFO     acm                             →  TAKEN
+2026-07-10 18:27:46,355  INFO     acn                             →  TAKEN
+2026-07-10 18:27:49,898  INFO     aco                             →  TAKEN
+2026-07-10 18:27:53,410  INFO     acp                             →  TAKEN
+2026-07-10 18:27:57,152  INFO     acq                             →  TAKEN
+2026-07-10 18:28:00,774  INFO     acr                             →  TAKEN
+2026-07-10 18:28:04,315  INFO     acs                             →  TAKEN
+2026-07-10 18:28:07,825  INFO     act                             →  TAKEN
+2026-07-10 18:28:11,361  INFO     acu                             →  TAKEN
+2026-07-10 18:28:14,877  INFO     acv                             →  AVAILABLE
+2026-07-10 18:28:18,401  INFO     acw                             →  TAKEN
+2026-07-10 18:28:21,903  INFO     acx                             →  TAKEN
+2026-07-10 18:28:25,409  INFO     acy                             →  TAKEN
+2026-07-10 18:28:28,957  INFO     acz                             →  TAKEN
+2026-07-10 18:28:32,456  INFO     ac0                             →  TAKEN
+2026-07-10 18:28:35,984  INFO     ac1                             →  TAKEN
+2026-07-10 18:28:39,515  INFO     ac2                             →  TAKEN
+2026-07-10 18:28:43,072  INFO     ac3                             →  TAKEN
+2026-07-10 18:28:46,604  INFO     ac4                             →  TAKEN
+2026-07-10 18:28:50,147  INFO     ac5                             →  TAKEN
+2026-07-10 18:28:53,676  INFO     ac6                             →  TAKEN
+2026-07-10 18:28:57,203  INFO     ac7                             →  TAKEN
+2026-07-10 18:29:00,777  INFO     ac8                             →  TAKEN
+2026-07-10 18:29:04,308  INFO     ac9                             →  TAKEN
+2026-07-10 18:29:07,841  INFO     ada                             →  TAKEN
+2026-07-10 18:29:11,379  INFO     adb                             →  TAKEN
+2026-07-10 18:29:14,897  INFO     adc                             →  TAKEN
+2026-07-10 18:29:18,427  INFO     add                             →  TAKEN
+2026-07-10 18:29:21,972  INFO     ade                             →  TAKEN
+2026-07-10 18:29:25,683  INFO     adf                             →  TAKEN
+2026-07-10 18:29:29,212  INFO     adg                             →  TAKEN
+2026-07-10 18:29:32,778  INFO     adh                             →  TAKEN
+2026-07-10 18:29:36,291  INFO     adi                             →  TAKEN
+2026-07-10 18:29:39,827  INFO     adj                             →  TAKEN
+2026-07-10 18:29:43,342  INFO     adk                             →  TAKEN
+2026-07-10 18:29:46,874  INFO     adl                             →  TAKEN
+2026-07-10 18:29:50,411  INFO     adm                             →  TAKEN
+2026-07-10 18:29:53,921  INFO     adn                             →  TAKEN
+2026-07-10 18:29:57,425  INFO     ado                             →  TAKEN
+2026-07-10 18:30:01,009  INFO     adp                             →  TAKEN
+2026-07-10 18:30:04,538  INFO     adq                             →  TAKEN
+2026-07-10 18:30:08,050  INFO     adr                             →  TAKEN
+2026-07-10 18:30:11,576  INFO     ads                             →  TAKEN
+2026-07-10 18:30:15,095  INFO     adt                             →  AVAILABLE
+2026-07-10 18:30:18,612  INFO     adu                             →  TAKEN
+2026-07-10 18:30:22,141  INFO     adv                             →  TAKEN
+2026-07-10 18:30:25,690  INFO     adw                             →  TAKEN
+2026-07-10 18:30:29,214  INFO     adx                             →  TAKEN
+2026-07-10 18:30:32,718  INFO     ady                             →  TAKEN
+2026-07-10 18:30:36,230  INFO     adz                             →  TAKEN
+2026-07-10 18:30:39,783  INFO     ad0                             →  TAKEN
+2026-07-10 18:30:43,290  INFO     ad1                             →  TAKEN
+2026-07-10 18:30:46,807  INFO     ad2                             →  TAKEN
+2026-07-10 18:30:50,332  INFO     ad3                             →  TAKEN
+2026-07-10 18:30:53,839  INFO     ad4                             →  TAKEN
+2026-07-10 18:30:57,321  INFO     ad5                             →  TAKEN
+2026-07-10 18:31:00,816  INFO     ad6                             →  TAKEN
+2026-07-10 18:31:04,337  INFO     ad7                             →  TAKEN
+2026-07-10 18:31:07,839  INFO     ad8                             →  TAKEN
+2026-07-10 18:31:11,361  INFO     ad9                             →  TAKEN
+2026-07-10 18:31:14,872  INFO     aea                             →  TAKEN
+2026-07-10 18:31:18,381  INFO     aeb                             →  TAKEN
+2026-07-10 18:31:21,910  INFO     aec                             →  TAKEN
+2026-07-10 18:31:25,438  INFO     aed                             →  TAKEN
+2026-07-10 18:31:28,938  INFO     aee                             →  TAKEN
+2026-07-10 18:31:32,468  INFO     aef                             →  TAKEN
+2026-07-10 18:31:35,981  INFO     aeg                             →  AVAILABLE
+2026-07-10 18:31:39,471  INFO     aeh                             →  TAKEN
+2026-07-10 18:31:43,003  INFO     aei                             →  TAKEN
+2026-07-10 18:31:46,527  INFO     aej                             →  TAKEN
+2026-07-10 18:31:50,048  INFO     aek                             →  TAKEN
+2026-07-10 18:31:53,557  INFO     ael                             →  TAKEN
+2026-07-10 18:31:57,072  INFO     aem                             →  TAKEN
+2026-07-10 18:32:00,775  INFO     aen                             →  TAKEN
+2026-07-10 18:32:04,316  INFO     aeo                             →  AVAILABLE
+2026-07-10 18:32:07,841  INFO     aep                             →  TAKEN
+2026-07-10 18:32:11,412  INFO     aeq                             →  TAKEN
+2026-07-10 18:32:15,036  INFO     aer                             →  TAKEN
+2026-07-10 18:32:18,567  INFO     aes                             →  TAKEN
+2026-07-10 18:32:22,087  INFO     aet                             →  TAKEN
+2026-07-10 18:32:25,596  INFO     aeu                             →  TAKEN
+2026-07-10 18:32:29,171  INFO     aev                             →  TAKEN
+2026-07-10 18:32:32,790  INFO     aew                             →  TAKEN
+2026-07-10 18:32:36,294  INFO     aex                             →  TAKEN
+2026-07-10 18:32:39,825  INFO     aey                             →  TAKEN
+2026-07-10 18:32:43,346  INFO     aez                             →  TAKEN
+2026-07-10 18:32:46,863  INFO     ae0                             →  TAKEN
+2026-07-10 18:32:50,404  INFO     ae1                             →  TAKEN
+2026-07-10 18:32:53,917  INFO     ae2                             →  TAKEN
+2026-07-10 18:32:57,442  INFO     ae3                             →  TAKEN
+2026-07-10 18:33:00,950  INFO     ae4                             →  TAKEN
+2026-07-10 18:33:04,448  INFO     ae5                             →  TAKEN
+2026-07-10 18:33:07,978  INFO     ae6                             →  TAKEN
+2026-07-10 18:33:11,503  INFO     ae7                             →  TAKEN
+2026-07-10 18:33:15,008  INFO     ae8                             →  TAKEN
+2026-07-10 18:33:18,507  INFO     ae9                             →  TAKEN
+2026-07-10 18:33:22,016  INFO     afa                             →  TAKEN
+2026-07-10 18:33:25,559  INFO     afb                             →  TAKEN
+2026-07-10 18:33:29,136  INFO     afc                             →  TAKEN
+2026-07-10 18:33:32,642  INFO     afd                             →  TAKEN
+2026-07-10 18:33:36,191  INFO     afe                             →  TAKEN
+2026-07-10 18:33:39,704  INFO     aff                             →  TAKEN
+2026-07-10 18:33:43,211  INFO     afg                             →  TAKEN
+2026-07-10 18:33:46,737  INFO     afh                             →  TAKEN
+2026-07-10 18:33:50,223  INFO     afi                             →  TAKEN
+2026-07-10 18:33:53,741  INFO     afj                             →  TAKEN
+2026-07-10 18:33:57,271  INFO     afk                             →  TAKEN
+2026-07-10 18:34:00,809  INFO     afl                             →  TAKEN
+2026-07-10 18:34:04,324  INFO     afm                             →  TAKEN
+2026-07-10 18:34:07,824  INFO     afn                             →  TAKEN
+2026-07-10 18:34:11,315  INFO     afo                             →  TAKEN
+2026-07-10 18:34:14,804  INFO     afp                             →  AVAILABLE
+2026-07-10 18:34:18,317  INFO     afq                             →  TAKEN
+2026-07-10 18:34:21,843  INFO     afr                             →  TAKEN
+2026-07-10 18:34:25,376  INFO     afs                             →  TAKEN
+2026-07-10 18:34:28,902  INFO     aft                             →  TAKEN
+2026-07-10 18:34:32,426  INFO     afu                             →  TAKEN
+2026-07-10 18:34:35,959  INFO     afv                             →  AVAILABLE
+2026-07-10 18:34:39,596  INFO     afw                             →  TAKEN
+2026-07-10 18:34:43,538  INFO     afx                             →  TAKEN
+2026-07-10 18:34:47,056  INFO     afy                             →  TAKEN
+2026-07-10 18:34:50,544  INFO     afz                             →  TAKEN
+2026-07-10 18:34:54,088  INFO     af0                             →  TAKEN
+2026-07-10 18:34:57,593  INFO     af1                             →  TAKEN
+2026-07-10 18:35:01,133  INFO     af2                             →  TAKEN
+2026-07-10 18:35:04,647  INFO     af3                             →  TAKEN
+2026-07-10 18:35:08,156  INFO     af4                             →  TAKEN
+2026-07-10 18:35:11,665  INFO     af5                             →  TAKEN
+2026-07-10 18:35:15,183  INFO     af6                             →  TAKEN
+2026-07-10 18:35:15,183  INFO     Break: 200/46643 done. Pausing 180s to avoid rate limits…
+2026-07-10 18:38:15,186  ERROR    Fatal error during batch: Message: A session is either terminated or not started
+Stacktrace:
+NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:336:23)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:504:14
+    at Layer.handleRequest (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:295:15
+    at param (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:600:14)
+    at param (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:664:3)
+    at next (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\morgan\index.js:170:5)
+    at Layer.handleRequest (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:342:13)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:291:5)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\body-parser\lib\read.js:171:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:227:14)
+    at invokeCallback (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\raw-body\index.js:227:7)
+Traceback (most recent call last):
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 212, in run_batch
+    status = self.check_username(username)
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 178, in check_username
+    input_field = self._get_input_field()
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 165, in _get_input_field
+    self._input_field = self._find(
+                        ~~~~~~~~~~^
+        AppiumBy.ANDROID_UIAUTOMATOR,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'new UiSelector().resourceId("com.whatsapp:id/username_edit_text")',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        timeout=5
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 61, in _find
+    return WebDriverWait(self.driver, t).until(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((by, value))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\wait.py", line 96, in until
+    value = method(self._driver)
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 84, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\webdriver.py", line 381, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {'using': by, 'value': value})['value']
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\errorhandler.py", line 125, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.InvalidSessionIdException: Message: A session is either terminated or not started
+Stacktrace:
+NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:336:23)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:504:14
+    at Layer.handleRequest (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:295:15
+    at param (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:600:14)
+    at param (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:610:14)
+    at processParams (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:664:3)
+    at next (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:291:5)
+    at logger (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\morgan\index.js:170:5)
+    at Layer.handleRequest (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:342:13)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:297:9
+    at processParams (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\router\index.js:291:5)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\body-parser\lib\read.js:171:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:227:14)
+    at invokeCallback (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\raw-body\index.js:227:7)
+2026-07-10 18:38:15,188  INFO     ──────────────────────────────────────────────────
+2026-07-10 18:38:15,188  INFO     Session done. Checked 200 usernames.
+2026-07-10 18:38:15,188  INFO     Available : 7
+2026-07-10 18:38:15,188  INFO     Taken     : 193
+2026-07-10 18:38:15,188  INFO     Invalid   : 0
+2026-07-10 18:38:15,189  INFO     Errors    : 0
+2026-07-10 18:38:15,189  INFO     Results saved to: results.csv
+2026-07-10 18:38:15,189  INFO     Available usernames this session:
+2026-07-10 18:38:15,189  INFO       ✓  ace
+2026-07-10 18:38:15,189  INFO       ✓  acv
+2026-07-10 18:38:15,189  INFO       ✓  adt
+2026-07-10 18:38:15,189  INFO       ✓  aeg
+2026-07-10 18:38:15,189  INFO       ✓  aeo
+2026-07-10 18:38:15,189  INFO       ✓  afp
+2026-07-10 18:38:15,189  INFO       ✓  afv
+2026-07-10 18:42:16,624  INFO     Loaded 46660 usernames from 'usernames.txt'
+2026-07-10 18:42:16,625  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 18:42:20,492  INFO     Resuming — skipping 213 already-checked usernames.
+2026-07-10 18:42:20,495  INFO     46443 usernames to check.
+2026-07-10 18:42:48,960  INFO     af7                             →  TAKEN
+2026-07-10 18:42:52,498  INFO     af8                             →  TAKEN
+2026-07-10 18:42:56,050  INFO     af9                             →  TAKEN
+2026-07-10 18:42:59,603  INFO     aga                             →  TAKEN
+2026-07-10 18:43:03,548  INFO     agb                             →  TAKEN
+2026-07-10 18:43:07,078  INFO     agc                             →  TAKEN
+2026-07-10 18:43:10,610  INFO     agd                             →  TAKEN
+2026-07-10 18:43:14,189  INFO     age                             →  TAKEN
+2026-07-10 18:43:17,700  INFO     agf                             →  TAKEN
+2026-07-10 18:43:21,226  INFO     agg                             →  TAKEN
+2026-07-10 18:43:24,762  INFO     agh                             →  TAKEN
+2026-07-10 18:43:28,322  INFO     agi                             →  TAKEN
+2026-07-10 18:43:31,882  INFO     agj                             →  TAKEN
+2026-07-10 18:43:35,405  INFO     agk                             →  TAKEN
+2026-07-10 18:43:38,908  INFO     agl                             →  TAKEN
+2026-07-10 18:43:42,487  INFO     agm                             →  TAKEN
+2026-07-10 18:43:45,998  INFO     agn                             →  TAKEN
+2026-07-10 18:43:49,532  INFO     ago                             →  TAKEN
+2026-07-10 18:43:53,047  INFO     agp                             →  TAKEN
+2026-07-10 18:43:56,591  INFO     agq                             →  TAKEN
+2026-07-10 18:44:00,141  INFO     agr                             →  TAKEN
+2026-07-10 18:44:03,677  INFO     ags                             →  TAKEN
+2026-07-10 18:44:07,272  INFO     agt                             →  TAKEN
+2026-07-10 18:44:10,781  INFO     agu                             →  TAKEN
+2026-07-10 18:44:14,333  INFO     agv                             →  TAKEN
+2026-07-10 18:44:17,861  INFO     agw                             →  TAKEN
+2026-07-10 18:44:21,488  INFO     agx                             →  TAKEN
+2026-07-10 18:44:24,996  INFO     agy                             →  TAKEN
+2026-07-10 18:44:28,508  INFO     agz                             →  TAKEN
+2026-07-10 18:44:32,026  INFO     ag0                             →  TAKEN
+2026-07-10 18:44:35,553  INFO     ag1                             →  TAKEN
+2026-07-10 18:44:39,071  INFO     ag2                             →  TAKEN
+2026-07-10 18:44:42,594  INFO     ag3                             →  TAKEN
+2026-07-10 18:44:46,109  INFO     ag4                             →  TAKEN
+2026-07-10 18:44:49,626  INFO     ag5                             →  TAKEN
+2026-07-10 18:44:53,184  INFO     ag6                             →  TAKEN
+2026-07-10 18:44:56,811  INFO     ag7                             →  TAKEN
+2026-07-10 18:45:00,772  INFO     ag8                             →  TAKEN
+2026-07-10 18:45:04,297  INFO     ag9                             →  TAKEN
+2026-07-10 18:45:07,837  INFO     aha                             →  TAKEN
+2026-07-10 18:45:11,366  INFO     ahb                             →  TAKEN
+2026-07-10 18:45:14,884  INFO     ahc                             →  TAKEN
+2026-07-10 18:45:18,423  INFO     ahd                             →  TAKEN
+2026-07-10 18:45:21,938  INFO     ahe                             →  TAKEN
+2026-07-10 18:45:25,499  INFO     ahf                             →  TAKEN
+2026-07-10 18:45:29,012  INFO     ahg                             →  TAKEN
+2026-07-10 18:45:32,976  INFO     ahh                             →  TAKEN
+2026-07-10 18:45:36,564  INFO     ahi                             →  TAKEN
+2026-07-10 18:45:40,106  INFO     ahj                             →  TAKEN
+2026-07-10 18:45:43,624  INFO     ahk                             →  TAKEN
+2026-07-10 18:45:47,147  INFO     ahl                             →  TAKEN
+2026-07-10 18:45:50,663  INFO     ahm                             →  TAKEN
+2026-07-10 18:45:54,175  INFO     ahn                             →  TAKEN
+2026-07-10 18:45:57,729  INFO     aho                             →  TAKEN
+2026-07-10 18:46:01,491  INFO     ahp                             →  TAKEN
+2026-07-10 18:46:05,027  INFO     ahq                             →  TAKEN
+2026-07-10 18:46:08,549  INFO     ahr                             →  TAKEN
+2026-07-10 18:46:12,082  INFO     ahs                             →  TAKEN
+2026-07-10 18:46:15,607  INFO     aht                             →  TAKEN
+2026-07-10 18:46:19,137  INFO     ahu                             →  TAKEN
+2026-07-10 18:46:22,785  INFO     ahv                             →  TAKEN
+2026-07-10 18:46:26,365  INFO     ahw                             →  TAKEN
+2026-07-10 18:46:29,883  INFO     ahx                             →  TAKEN
+2026-07-10 18:46:45,599  INFO     ahy                             →  TAKEN
+2026-07-10 18:46:49,410  INFO     ahz                             →  TAKEN
+2026-07-10 18:46:53,044  INFO     ah0                             →  TAKEN
+2026-07-10 18:46:56,983  INFO     ah1                             →  TAKEN
+2026-07-10 18:47:00,776  INFO     ah2                             →  TAKEN
+2026-07-10 18:47:04,624  INFO     ah3                             →  TAKEN
+2026-07-10 18:47:08,281  INFO     ah4                             →  TAKEN
+2026-07-10 18:47:12,045  INFO     ah5                             →  TAKEN
+2026-07-10 18:47:15,782  INFO     ah6                             →  TAKEN
+2026-07-10 18:47:19,604  INFO     ah7                             →  TAKEN
+2026-07-10 18:47:23,623  INFO     ah8                             →  TAKEN
+2026-07-10 18:47:27,392  INFO     ah9                             →  TAKEN
+2026-07-10 18:47:31,120  INFO     aia                             →  TAKEN
+2026-07-10 18:47:34,805  INFO     aib                             →  TAKEN
+2026-07-10 18:47:38,414  INFO     aic                             →  TAKEN
+2026-07-10 18:47:42,088  INFO     aid                             →  TAKEN
+2026-07-10 18:47:45,879  INFO     aie                             →  TAKEN
+2026-07-10 18:47:49,565  INFO     aif                             →  TAKEN
+2026-07-10 18:47:53,400  INFO     aig                             →  TAKEN
+2026-07-10 18:47:57,023  INFO     aih                             →  TAKEN
+2026-07-10 18:48:00,868  INFO     aii                             →  TAKEN
+2026-07-10 18:48:04,603  INFO     aij                             →  TAKEN
+2026-07-10 18:48:08,334  INFO     aik                             →  TAKEN
+2026-07-10 18:48:12,105  INFO     ail                             →  TAKEN
+2026-07-10 18:48:15,864  INFO     aim                             →  TAKEN
+2026-07-10 18:48:19,573  INFO     ain                             →  TAKEN
+2026-07-10 18:48:23,383  INFO     aio                             →  TAKEN
+2026-07-10 18:48:27,276  INFO     aip                             →  TAKEN
+2026-07-10 18:48:30,968  INFO     aiq                             →  TAKEN
+2026-07-10 18:48:34,656  INFO     air                             →  TAKEN
+2026-07-10 18:48:38,784  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 18:48:38,803  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 18:48:38,803  INFO     ais                             →  ERROR
+2026-07-10 18:48:42,495  INFO     ait                             →  TAKEN
+2026-07-10 18:48:46,302  INFO     aiu                             →  TAKEN
+2026-07-10 18:48:50,264  INFO     aiv                             →  TAKEN
+2026-07-10 18:48:54,167  INFO     aiw                             →  TAKEN
+2026-07-10 18:48:58,124  INFO     aix                             →  TAKEN
+2026-07-10 18:49:02,648  INFO     aiy                             →  TAKEN
+2026-07-10 18:49:06,081  INFO     aiz                             →  TAKEN
+2026-07-10 18:49:09,907  INFO     ai0                             →  TAKEN
+2026-07-10 18:49:14,121  INFO     ai1                             →  TAKEN
+2026-07-10 18:49:17,964  INFO     ai2                             →  TAKEN
+2026-07-10 18:49:21,702  INFO     ai3                             →  TAKEN
+2026-07-10 18:49:25,779  INFO     ai4                             →  TAKEN
+2026-07-10 18:49:29,929  INFO     ai5                             →  TAKEN
+2026-07-10 18:49:33,754  INFO     ai6                             →  TAKEN
+2026-07-10 18:49:37,463  INFO     ai7                             →  TAKEN
+2026-07-10 18:49:41,496  INFO     ai8                             →  TAKEN
+2026-07-10 18:49:45,313  INFO     ai9                             →  TAKEN
+2026-07-10 18:49:49,117  INFO     aja                             →  TAKEN
+2026-07-10 18:49:53,110  INFO     ajb                             →  TAKEN
+2026-07-10 18:49:56,882  INFO     ajc                             →  TAKEN
+2026-07-10 18:50:00,799  INFO     ajd                             →  TAKEN
+2026-07-10 18:50:04,672  INFO     aje                             →  TAKEN
+2026-07-10 18:50:08,367  INFO     ajf                             →  TAKEN
+2026-07-10 18:50:12,301  INFO     ajg                             →  TAKEN
+2026-07-10 18:50:16,070  INFO     ajh                             →  TAKEN
+2026-07-10 18:50:20,223  INFO     aji                             →  TAKEN
+2026-07-10 18:50:24,532  INFO     ajj                             →  TAKEN
+2026-07-10 18:50:28,313  INFO     ajk                             →  TAKEN
+2026-07-10 18:50:32,136  INFO     ajl                             →  TAKEN
+2026-07-10 18:50:35,899  INFO     ajm                             →  TAKEN
+2026-07-10 18:50:39,665  INFO     ajn                             →  TAKEN
+2026-07-10 18:50:43,458  INFO     ajo                             →  TAKEN
+2026-07-10 18:50:47,562  INFO     ajp                             →  TAKEN
+2026-07-10 18:50:51,311  INFO     ajq                             →  TAKEN
+2026-07-10 18:50:55,175  INFO     ajr                             →  TAKEN
+2026-07-10 18:50:59,112  INFO     ajs                             →  TAKEN
+2026-07-10 18:51:03,019  INFO     ajt                             →  TAKEN
+2026-07-10 18:51:06,776  INFO     aju                             →  TAKEN
+2026-07-10 18:51:10,672  INFO     ajv                             →  TAKEN
+2026-07-10 18:51:14,438  INFO     ajw                             →  TAKEN
+2026-07-10 18:51:18,381  INFO     ajx                             →  TAKEN
+2026-07-10 18:51:22,119  INFO     ajy                             →  TAKEN
+2026-07-10 18:51:25,920  INFO     ajz                             →  TAKEN
+2026-07-10 18:51:29,818  INFO     aj0                             →  TAKEN
+2026-07-10 18:51:33,510  INFO     aj1                             →  TAKEN
+2026-07-10 18:51:37,162  INFO     aj2                             →  TAKEN
+2026-07-10 18:51:40,934  INFO     aj3                             →  TAKEN
+2026-07-10 18:51:44,695  INFO     aj4                             →  TAKEN
+2026-07-10 18:51:48,362  INFO     aj5                             →  TAKEN
+2026-07-10 18:51:52,091  INFO     aj6                             →  TAKEN
+2026-07-10 18:51:55,841  INFO     aj7                             →  TAKEN
+2026-07-10 18:51:59,804  INFO     aj8                             →  TAKEN
+2026-07-10 18:52:03,644  INFO     aj9                             →  TAKEN
+2026-07-10 18:52:07,371  INFO     aka                             →  TAKEN
+2026-07-10 18:52:10,982  INFO     akb                             →  TAKEN
+2026-07-10 18:52:14,779  INFO     akc                             →  TAKEN
+2026-07-10 18:52:18,902  INFO     akd                             →  TAKEN
+2026-07-10 18:52:22,609  INFO     ake                             →  TAKEN
+2026-07-10 18:52:26,424  INFO     akf                             →  TAKEN
+2026-07-10 18:52:30,400  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 18:52:30,415  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 18:52:30,415  INFO     akg                             →  ERROR
+2026-07-10 18:52:34,211  INFO     akh                             →  TAKEN
+2026-07-10 18:52:37,967  INFO     aki                             →  TAKEN
+2026-07-10 18:52:41,767  INFO     akj                             →  TAKEN
+2026-07-10 18:52:45,557  INFO     akk                             →  TAKEN
+2026-07-10 18:52:49,628  INFO     akl                             →  TAKEN
+2026-07-10 18:52:53,463  INFO     akm                             →  TAKEN
+2026-07-10 18:52:57,243  INFO     akn                             →  TAKEN
+2026-07-10 18:53:00,994  INFO     ako                             →  TAKEN
+2026-07-10 18:53:04,746  INFO     akp                             →  TAKEN
+2026-07-10 18:53:08,527  INFO     akq                             →  TAKEN
+2026-07-10 18:53:12,628  INFO     akr                             →  TAKEN
+2026-07-10 18:53:16,351  INFO     aks                             →  TAKEN
+2026-07-10 18:53:20,489  INFO     akt                             →  TAKEN
+2026-07-10 18:53:24,423  INFO     aku                             →  TAKEN
+2026-07-10 18:53:28,174  INFO     akv                             →  TAKEN
+2026-07-10 18:53:31,968  INFO     akw                             →  TAKEN
+2026-07-10 18:53:35,723  INFO     akx                             →  TAKEN
+2026-07-10 18:53:39,715  INFO     aky                             →  TAKEN
+2026-07-10 18:53:43,532  INFO     akz                             →  TAKEN
+2026-07-10 18:53:47,121  INFO     ak0                             →  TAKEN
+2026-07-10 18:53:50,906  INFO     ak1                             →  TAKEN
+2026-07-10 18:53:54,693  INFO     ak2                             →  TAKEN
+2026-07-10 18:53:58,716  INFO     ak3                             →  TAKEN
+2026-07-10 18:54:02,868  INFO     ak4                             →  TAKEN
+2026-07-10 18:54:06,632  INFO     ak5                             →  TAKEN
+2026-07-10 18:54:10,571  INFO     ak6                             →  TAKEN
+2026-07-10 18:54:14,318  INFO     ak7                             →  TAKEN
+2026-07-10 18:54:18,023  INFO     ak8                             →  TAKEN
+2026-07-10 18:54:21,827  INFO     ak9                             →  TAKEN
+2026-07-10 18:54:25,647  INFO     ala                             →  TAKEN
+2026-07-10 18:54:29,524  INFO     alb                             →  TAKEN
+2026-07-10 18:54:33,223  INFO     alc                             →  TAKEN
+2026-07-10 18:54:36,999  INFO     ald                             →  TAKEN
+2026-07-10 18:54:40,773  INFO     ale                             →  TAKEN
+2026-07-10 18:54:44,461  INFO     alf                             →  TAKEN
+2026-07-10 18:54:48,553  INFO     alg                             →  TAKEN
+2026-07-10 18:54:52,580  INFO     alh                             →  TAKEN
+2026-07-10 18:54:56,303  INFO     ali                             →  TAKEN
+2026-07-10 18:55:00,101  INFO     alj                             →  TAKEN
+2026-07-10 18:55:04,360  INFO     alk                             →  TAKEN
+2026-07-10 18:55:08,179  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 18:55:08,196  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 18:55:08,196  INFO     all                             →  ERROR
+2026-07-10 18:55:12,049  INFO     alm                             →  TAKEN
+2026-07-10 18:55:15,846  INFO     aln                             →  TAKEN
+2026-07-10 18:55:19,676  INFO     alo                             →  TAKEN
+2026-07-10 18:55:23,352  INFO     alp                             →  TAKEN
+2026-07-10 18:55:27,087  INFO     alq                             →  TAKEN
+2026-07-10 18:55:27,087  INFO     Break: 200/46443 done. Pausing 180s to avoid rate limits…
+2026-07-10 18:58:35,276  INFO     alr                             →  TAKEN
+2026-07-10 18:58:39,093  INFO     als                             →  TAKEN
+2026-07-10 18:58:43,120  INFO     alt                             →  TAKEN
+2026-07-10 18:58:46,879  INFO     alu                             →  TAKEN
+2026-07-10 18:58:51,010  INFO     alv                             →  TAKEN
+2026-07-10 18:58:54,609  INFO     alw                             →  TAKEN
+2026-07-10 18:58:58,365  INFO     alx                             →  TAKEN
+2026-07-10 18:59:02,477  INFO     aly                             →  TAKEN
+2026-07-10 18:59:06,808  INFO     alz                             →  TAKEN
+2026-07-10 18:59:10,589  INFO     al0                             →  TAKEN
+2026-07-10 18:59:14,409  INFO     al1                             →  TAKEN
+2026-07-10 18:59:18,253  INFO     al2                             →  TAKEN
+2026-07-10 18:59:21,939  INFO     al3                             →  TAKEN
+2026-07-10 18:59:25,576  INFO     al4                             →  TAKEN
+2026-07-10 18:59:29,223  INFO     al5                             →  TAKEN
+2026-07-10 18:59:33,079  INFO     al6                             →  TAKEN
+2026-07-10 18:59:36,813  INFO     al7                             →  TAKEN
+2026-07-10 18:59:40,586  INFO     al8                             →  TAKEN
+2026-07-10 18:59:44,224  INFO     al9                             →  TAKEN
+2026-07-10 18:59:47,992  INFO     ama                             →  TAKEN
+2026-07-10 18:59:51,709  INFO     amb                             →  TAKEN
+2026-07-10 18:59:55,536  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 18:59:55,553  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 18:59:55,553  INFO     amc                             →  ERROR
+2026-07-10 18:59:59,513  INFO     amd                             →  TAKEN
+2026-07-10 19:00:03,680  INFO     ame                             →  TAKEN
+2026-07-10 19:00:07,500  INFO     amf                             →  TAKEN
+2026-07-10 19:00:11,291  INFO     amg                             →  TAKEN
+2026-07-10 19:00:14,927  INFO     amh                             →  TAKEN
+2026-07-10 19:00:18,717  INFO     ami                             →  TAKEN
+2026-07-10 19:00:22,414  INFO     amj                             →  TAKEN
+2026-07-10 19:00:26,044  INFO     amk                             →  TAKEN
+2026-07-10 19:00:29,742  INFO     aml                             →  TAKEN
+2026-07-10 19:00:33,439  INFO     amm                             →  TAKEN
+2026-07-10 19:00:37,248  INFO     amn                             →  TAKEN
+2026-07-10 19:00:40,981  INFO     amo                             →  TAKEN
+2026-07-10 19:00:44,744  INFO     amp                             →  TAKEN
+2026-07-10 19:00:48,465  INFO     amq                             →  TAKEN
+2026-07-10 19:00:52,267  INFO     amr                             →  TAKEN
+2026-07-10 19:00:55,966  INFO     ams                             →  TAKEN
+2026-07-10 19:00:59,704  INFO     amt                             →  TAKEN
+2026-07-10 19:01:03,725  INFO     amu                             →  TAKEN
+2026-07-10 19:01:07,524  INFO     amv                             →  TAKEN
+2026-07-10 19:01:11,297  INFO     amw                             →  TAKEN
+2026-07-10 19:01:15,020  INFO     amx                             →  TAKEN
+2026-07-10 19:01:18,828  INFO     amy                             →  TAKEN
+2026-07-10 19:01:22,490  INFO     amz                             →  TAKEN
+2026-07-10 19:01:26,129  INFO     am0                             →  TAKEN
+2026-07-10 19:01:29,878  INFO     am1                             →  TAKEN
+2026-07-10 19:01:33,560  INFO     am2                             →  TAKEN
+2026-07-10 19:01:37,479  INFO     am3                             →  TAKEN
+2026-07-10 19:01:41,503  INFO     am4                             →  TAKEN
+2026-07-10 19:01:45,156  INFO     am5                             →  TAKEN
+2026-07-10 19:01:48,744  INFO     am6                             →  TAKEN
+2026-07-10 19:01:52,358  INFO     am7                             →  TAKEN
+2026-07-10 19:01:56,088  INFO     am8                             →  TAKEN
+2026-07-10 19:01:59,830  INFO     am9                             →  TAKEN
+2026-07-10 19:02:03,525  INFO     ana                             →  TAKEN
+2026-07-10 19:02:07,347  INFO     anb                             →  TAKEN
+2026-07-10 19:02:11,011  INFO     anc                             →  TAKEN
+2026-07-10 19:02:14,803  INFO     and                             →  TAKEN
+2026-07-10 19:02:18,543  INFO     ane                             →  TAKEN
+2026-07-10 19:02:22,247  INFO     anf                             →  TAKEN
+2026-07-10 19:02:26,273  INFO     ang                             →  TAKEN
+2026-07-10 19:02:30,070  INFO     anh                             →  TAKEN
+2026-07-10 19:02:33,688  INFO     ani                             →  TAKEN
+2026-07-10 19:02:37,399  INFO     anj                             →  TAKEN
+2026-07-10 19:02:41,260  INFO     ank                             →  TAKEN
+2026-07-10 19:02:44,976  INFO     anl                             →  TAKEN
+2026-07-10 19:02:48,741  INFO     anm                             →  TAKEN
+2026-07-10 19:02:52,497  INFO     ann                             →  TAKEN
+2026-07-10 19:02:56,233  INFO     ano                             →  TAKEN
+2026-07-10 19:03:00,067  INFO     anp                             →  TAKEN
+2026-07-10 19:03:03,823  INFO     anq                             →  TAKEN
+2026-07-10 19:03:07,493  INFO     anr                             →  TAKEN
+2026-07-10 19:03:11,275  INFO     ans                             →  TAKEN
+2026-07-10 19:03:14,975  INFO     ant                             →  TAKEN
+2026-07-10 19:03:18,712  INFO     anu                             →  TAKEN
+2026-07-10 19:03:22,407  INFO     anv                             →  TAKEN
+2026-07-10 19:03:26,243  INFO     anw                             →  TAKEN
+2026-07-10 19:03:30,029  INFO     anx                             →  TAKEN
+2026-07-10 19:03:33,824  INFO     any                             →  TAKEN
+2026-07-10 19:03:37,623  INFO     anz                             →  TAKEN
+2026-07-10 19:03:41,583  INFO     an0                             →  TAKEN
+2026-07-10 19:03:45,285  INFO     an1                             →  TAKEN
+2026-07-10 19:03:48,989  INFO     an2                             →  TAKEN
+2026-07-10 19:03:52,875  INFO     an3                             →  TAKEN
+2026-07-10 19:03:56,617  INFO     an4                             →  TAKEN
+2026-07-10 19:04:00,769  INFO     an5                             →  TAKEN
+2026-07-10 19:04:04,410  INFO     an6                             →  TAKEN
+2026-07-10 19:04:08,073  INFO     an7                             →  TAKEN
+2026-07-10 19:04:11,892  INFO     an8                             →  TAKEN
+2026-07-10 19:04:15,657  INFO     an9                             →  TAKEN
+2026-07-10 19:04:19,313  INFO     aoa                             →  TAKEN
+2026-07-10 19:04:23,107  INFO     aob                             →  TAKEN
+2026-07-10 19:04:26,903  INFO     aoc                             →  TAKEN
+2026-07-10 19:04:30,755  INFO     aod                             →  TAKEN
+2026-07-10 19:04:34,519  INFO     aoe                             →  TAKEN
+2026-07-10 19:04:38,487  INFO     aof                             →  TAKEN
+2026-07-10 19:04:42,251  INFO     aog                             →  TAKEN
+2026-07-10 19:04:46,167  INFO     aoh                             →  TAKEN
+2026-07-10 19:04:49,915  INFO     aoi                             →  TAKEN
+2026-07-10 19:04:53,675  INFO     aoj                             →  TAKEN
+2026-07-10 19:04:57,535  INFO     aok                             →  TAKEN
+2026-07-10 19:05:01,275  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 19:05:01,294  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 19:05:01,294  INFO     aol                             →  ERROR
+2026-07-10 19:05:05,046  INFO     aom                             →  TAKEN
+2026-07-10 19:05:08,790  INFO     aon                             →  TAKEN
+2026-07-10 19:05:12,687  INFO     aoo                             →  TAKEN
+2026-07-10 19:05:16,353  INFO     aop                             →  TAKEN
+2026-07-10 19:05:20,031  INFO     aoq                             →  TAKEN
+2026-07-10 19:05:23,647  INFO     aor                             →  TAKEN
+2026-07-10 19:05:27,650  INFO     aos                             →  TAKEN
+2026-07-10 19:05:31,375  INFO     aot                             →  TAKEN
+2026-07-10 19:05:35,201  INFO     aou                             →  TAKEN
+2026-07-10 19:05:39,024  INFO     aov                             →  TAKEN
+2026-07-10 19:05:42,761  INFO     aow                             →  TAKEN
+2026-07-10 19:05:46,436  INFO     aox                             →  TAKEN
+2026-07-10 19:05:53,280  INFO     aoy                             →  TAKEN
+2026-07-10 19:05:57,638  INFO     aoz                             →  TAKEN
+2026-07-10 19:06:01,445  INFO     ao0                             →  TAKEN
+2026-07-10 19:06:05,344  INFO     ao1                             →  TAKEN
+2026-07-10 19:06:09,062  INFO     ao2                             →  TAKEN
+2026-07-10 19:06:14,508  INFO     ao3                             →  TAKEN
+2026-07-10 19:06:18,372  INFO     ao4                             →  TAKEN
+2026-07-10 19:06:22,031  INFO     ao5                             →  TAKEN
+2026-07-10 19:06:25,874  INFO     ao6                             →  TAKEN
+2026-07-10 19:06:29,556  INFO     ao7                             →  TAKEN
+2026-07-10 19:06:33,298  INFO     ao8                             →  TAKEN
+2026-07-10 19:06:37,478  INFO     ao9                             →  TAKEN
+2026-07-10 19:06:41,286  INFO     apa                             →  TAKEN
+2026-07-10 19:06:45,571  INFO     apb                             →  TAKEN
+2026-07-10 19:06:49,896  INFO     apc                             →  TAKEN
+2026-07-10 19:06:53,620  INFO     apd                             →  TAKEN
+2026-07-10 19:06:57,989  INFO     ape                             →  TAKEN
+2026-07-10 19:07:03,023  INFO     apf                             →  TAKEN
+2026-07-10 19:07:08,100  INFO     apg                             →  TAKEN
+2026-07-10 19:07:11,836  INFO     aph                             →  TAKEN
+2026-07-10 19:07:16,225  INFO     api                             →  TAKEN
+2026-07-10 19:07:20,594  INFO     apj                             →  TAKEN
+2026-07-10 19:07:25,199  INFO     apk                             →  TAKEN
+2026-07-10 19:07:29,779  INFO     apl                             →  TAKEN
+2026-07-10 19:07:38,388  INFO     apm                             →  TAKEN
+2026-07-10 19:07:42,231  INFO     apn                             →  TAKEN
+2026-07-10 19:07:46,083  INFO     apo                             →  TAKEN
+2026-07-10 19:07:49,922  INFO     app                             →  TAKEN
+2026-07-10 19:07:53,837  INFO     apq                             →  TAKEN
+2026-07-10 19:07:58,368  INFO     apr                             →  TAKEN
+2026-07-10 19:08:02,493  INFO     aps                             →  TAKEN
+2026-07-10 19:08:06,429  INFO     apt                             →  TAKEN
+2026-07-10 19:08:10,937  INFO     apu                             →  TAKEN
+2026-07-10 19:08:14,619  INFO     apv                             →  TAKEN
+2026-07-10 19:08:18,902  INFO     apw                             →  TAKEN
+2026-07-10 19:08:22,839  INFO     apx                             →  TAKEN
+2026-07-10 19:08:27,078  INFO     apy                             →  TAKEN
+2026-07-10 19:08:31,760  INFO     apz                             →  TAKEN
+2026-07-10 19:08:36,399  INFO     ap0                             →  TAKEN
+2026-07-10 19:08:40,177  INFO     ap1                             →  TAKEN
+2026-07-10 19:08:43,913  INFO     ap2                             →  TAKEN
+2026-07-10 19:08:47,797  INFO     ap3                             →  TAKEN
+2026-07-10 19:08:51,784  INFO     ap4                             →  TAKEN
+2026-07-10 19:08:55,832  INFO     ap5                             →  TAKEN
+2026-07-10 19:08:59,725  INFO     ap6                             →  TAKEN
+2026-07-10 19:09:03,680  INFO     ap7                             →  TAKEN
+2026-07-10 19:09:07,557  INFO     ap8                             →  TAKEN
+2026-07-10 19:09:11,560  INFO     ap9                             →  TAKEN
+2026-07-10 19:09:15,400  INFO     aqa                             →  TAKEN
+2026-07-10 19:09:19,309  INFO     aqb                             →  TAKEN
+2026-07-10 19:09:23,265  INFO     aqc                             →  TAKEN
+2026-07-10 19:09:27,112  INFO     aqd                             →  TAKEN
+2026-07-10 19:09:30,858  INFO     aqe                             →  TAKEN
+2026-07-10 19:09:34,698  INFO     aqf                             →  TAKEN
+2026-07-10 19:09:38,606  INFO     aqg                             →  TAKEN
+2026-07-10 19:09:42,773  INFO     aqh                             →  TAKEN
+2026-07-10 19:09:48,184  INFO     aqi                             →  TAKEN
+2026-07-10 19:09:52,680  INFO     aqj                             →  TAKEN
+2026-07-10 19:09:56,855  INFO     aqk                             →  TAKEN
+2026-07-10 19:10:01,547  INFO     aql                             →  TAKEN
+2026-07-10 19:10:05,392  INFO     aqm                             →  TAKEN
+2026-07-10 19:10:09,703  INFO     aqn                             →  TAKEN
+2026-07-10 19:10:13,871  INFO     aqo                             →  TAKEN
+2026-07-10 19:10:18,156  INFO     aqp                             →  TAKEN
+2026-07-10 19:10:22,348  INFO     aqq                             →  TAKEN
+2026-07-10 19:10:26,483  INFO     aqr                             →  TAKEN
+2026-07-10 19:10:31,133  INFO     aqs                             →  TAKEN
+2026-07-10 19:10:36,170  INFO     aqt                             →  TAKEN
+2026-07-10 19:10:40,178  INFO     aqu                             →  TAKEN
+2026-07-10 19:10:44,774  INFO     aqv                             →  TAKEN
+2026-07-10 19:10:48,686  INFO     aqw                             →  TAKEN
+2026-07-10 19:10:52,973  INFO     aqx                             →  TAKEN
+2026-07-10 19:10:57,344  INFO     aqy                             →  TAKEN
+2026-07-10 19:11:01,342  INFO     aqz                             →  TAKEN
+2026-07-10 19:11:05,462  INFO     aq0                             →  TAKEN
+2026-07-10 19:11:09,059  INFO     aq1                             →  TAKEN
+2026-07-10 19:11:12,993  INFO     aq2                             →  TAKEN
+2026-07-10 19:11:17,150  INFO     aq3                             →  TAKEN
+2026-07-10 19:11:21,520  INFO     aq4                             →  TAKEN
+2026-07-10 19:11:25,646  INFO     aq5                             →  TAKEN
+2026-07-10 19:11:29,744  INFO     aq6                             →  TAKEN
+2026-07-10 19:11:33,504  INFO     aq7                             →  TAKEN
+2026-07-10 19:11:37,408  INFO     aq8                             →  TAKEN
+2026-07-10 19:11:41,489  INFO     aq9                             →  TAKEN
+2026-07-10 19:11:45,623  INFO     ara                             →  TAKEN
+2026-07-10 19:11:45,624  INFO     Break: 400/46443 done. Pausing 180s to avoid rate limits…
+2026-07-10 19:14:54,128  INFO     arb                             →  TAKEN
+2026-07-10 19:14:58,484  INFO     arc                             →  TAKEN
+2026-07-10 19:15:03,182  INFO     ard                             →  TAKEN
+2026-07-10 19:15:07,299  INFO     are                             →  TAKEN
+2026-07-10 19:15:10,988  INFO     arf                             →  TAKEN
+2026-07-10 19:15:15,079  INFO     arg                             →  TAKEN
+2026-07-10 19:15:18,961  INFO     arh                             →  TAKEN
+2026-07-10 19:15:22,801  INFO     ari                             →  TAKEN
+2026-07-10 19:15:27,383  INFO     arj                             →  TAKEN
+2026-07-10 19:15:32,355  INFO     ark                             →  TAKEN
+2026-07-10 19:15:36,424  INFO     arl                             →  TAKEN
+2026-07-10 19:15:40,216  INFO     arm                             →  TAKEN
+2026-07-10 19:15:44,299  INFO     arn                             →  TAKEN
+2026-07-10 19:15:48,233  INFO     aro                             →  TAKEN
+2026-07-10 19:15:52,840  INFO     arp                             →  TAKEN
+2026-07-10 19:15:56,992  INFO     arq                             →  TAKEN
+2026-07-10 19:16:01,516  INFO     arr                             →  TAKEN
+2026-07-10 19:16:05,575  INFO     ars                             →  TAKEN
+2026-07-10 19:16:09,657  INFO     art                             →  TAKEN
+2026-07-10 19:16:13,875  INFO     aru                             →  TAKEN
+2026-07-10 19:16:17,919  INFO     arv                             →  TAKEN
+2026-07-10 19:16:21,850  INFO     arw                             →  TAKEN
+2026-07-10 19:16:25,959  INFO     arx                             →  TAKEN
+2026-07-10 19:16:30,331  INFO     ary                             →  TAKEN
+2026-07-10 19:16:34,253  INFO     arz                             →  TAKEN
+2026-07-10 19:16:38,268  INFO     ar0                             →  TAKEN
+2026-07-10 19:16:41,692  INFO     ar1                             →  TAKEN
+2026-07-10 19:16:45,626  INFO     ar2                             →  TAKEN
+2026-07-10 19:16:49,993  INFO     ar3                             →  TAKEN
+2026-07-10 19:16:54,308  INFO     ar4                             →  TAKEN
+2026-07-10 19:16:58,456  INFO     ar5                             →  TAKEN
+2026-07-10 19:17:02,645  INFO     ar6                             →  TAKEN
+2026-07-10 19:17:06,514  INFO     ar7                             →  TAKEN
+2026-07-10 19:17:10,835  INFO     ar8                             →  TAKEN
+2026-07-10 19:17:15,274  INFO     ar9                             →  TAKEN
+2026-07-10 19:17:19,277  INFO     asa                             →  TAKEN
+2026-07-10 19:17:23,168  INFO     asb                             →  TAKEN
+2026-07-10 19:17:27,143  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 19:17:27,172  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 19:17:27,172  INFO     asc                             →  ERROR
+2026-07-10 19:17:32,694  INFO     asd                             →  TAKEN
+2026-07-10 19:17:36,806  INFO     ase                             →  TAKEN
+2026-07-10 19:17:40,968  INFO     asf                             →  TAKEN
+2026-07-10 19:17:45,223  INFO     asg                             →  TAKEN
+2026-07-10 19:17:49,666  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 19:17:49,699  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 19:17:49,700  INFO     ash                             →  ERROR
+2026-07-10 19:17:53,980  INFO     asi                             →  TAKEN
+2026-07-10 19:17:58,092  INFO     asj                             →  TAKEN
+2026-07-10 19:18:01,930  INFO     ask                             →  TAKEN
+2026-07-10 19:18:06,041  INFO     asl                             →  TAKEN
+2026-07-10 19:18:10,060  INFO     asm                             →  TAKEN
+2026-07-10 19:18:14,094  INFO     asn                             →  TAKEN
+2026-07-10 19:18:18,110  INFO     aso                             →  TAKEN
+2026-07-10 19:18:22,071  INFO     asp                             →  TAKEN
+2026-07-10 19:18:26,196  INFO     asq                             →  TAKEN
+2026-07-10 19:18:29,887  INFO     asr                             →  TAKEN
+2026-07-10 19:18:33,900  INFO     ass                             →  TAKEN
+2026-07-10 19:18:38,137  INFO     ast                             →  TAKEN
+2026-07-10 19:18:42,309  INFO     asu                             →  TAKEN
+2026-07-10 19:18:45,843  INFO     asv                             →  TAKEN
+2026-07-10 19:18:49,978  INFO     asw                             →  TAKEN
+2026-07-10 19:18:54,111  INFO     asx                             →  TAKEN
+2026-07-10 19:18:58,024  INFO     asy                             →  TAKEN
+2026-07-10 19:19:02,542  INFO     asz                             →  TAKEN
+2026-07-10 19:19:06,756  INFO     as0                             →  TAKEN
+2026-07-10 19:19:10,945  INFO     as1                             →  TAKEN
+2026-07-10 19:19:14,870  INFO     as2                             →  TAKEN
+2026-07-10 19:19:19,032  INFO     as3                             →  TAKEN
+2026-07-10 19:19:22,918  INFO     as4                             →  TAKEN
+2026-07-10 19:19:27,104  INFO     as5                             →  TAKEN
+2026-07-10 19:19:31,210  INFO     as6                             →  TAKEN
+2026-07-10 19:19:35,443  INFO     as7                             →  TAKEN
+2026-07-10 19:19:39,202  INFO     as8                             →  TAKEN
+2026-07-10 19:19:43,519  INFO     as9                             →  TAKEN
+2026-07-10 19:19:47,757  INFO     ata                             →  TAKEN
+2026-07-10 19:19:52,099  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 19:19:52,119  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 19:19:52,119  INFO     atb                             →  ERROR
+2026-07-10 19:19:56,287  INFO     atc                             →  TAKEN
+2026-07-10 19:20:00,780  INFO     atd                             →  TAKEN
+2026-07-10 19:20:04,528  INFO     ate                             →  TAKEN
+2026-07-10 19:20:08,051  INFO     atf                             →  TAKEN
+2026-07-10 19:20:12,492  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 19:20:12,517  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 19:20:12,517  INFO     atg                             →  ERROR
+2026-07-10 19:20:16,625  INFO     ath                             →  TAKEN
+2026-07-10 19:20:20,809  INFO     ati                             →  TAKEN
+2026-07-10 19:20:24,798  INFO     atj                             →  TAKEN
+2026-07-10 19:20:28,997  INFO     atk                             →  TAKEN
+2026-07-10 19:20:33,144  INFO     atl                             →  TAKEN
+2026-07-10 19:20:37,117  INFO     atm                             →  TAKEN
+2026-07-10 19:20:41,374  INFO     atn                             →  TAKEN
+2026-07-10 19:20:45,310  INFO     ato                             →  TAKEN
+2026-07-10 19:20:49,193  INFO     atp                             →  TAKEN
+2026-07-10 19:20:53,028  INFO     atq                             →  TAKEN
+2026-07-10 19:20:56,548  INFO     atr                             →  TAKEN
+2026-07-10 19:21:00,825  INFO     ats                             →  TAKEN
+2026-07-10 19:21:04,727  INFO     att                             →  TAKEN
+2026-07-10 19:21:08,521  INFO     atu                             →  TAKEN
+2026-07-10 19:21:12,509  WARNING  Could not read status. Visible texts on screen: ['username', 'this username is only available on whatsapp business. get started', 'suggest a username', 'next', 'reserve username']
+2026-07-10 19:21:12,530  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 19:21:12,531  INFO     atv                             →  ERROR
+2026-07-10 19:21:16,421  INFO     atw                             →  TAKEN
+2026-07-10 19:21:20,367  INFO     atx                             →  TAKEN
+2026-07-10 19:21:24,230  INFO     aty                             →  TAKEN
+2026-07-10 19:21:28,008  INFO     atz                             →  TAKEN
+2026-07-10 19:21:32,708  INFO     at0                             →  TAKEN
+2026-07-10 19:21:36,501  INFO     at1                             →  TAKEN
+2026-07-10 19:21:40,318  INFO     at2                             →  TAKEN
+2026-07-10 19:21:44,234  INFO     at3                             →  TAKEN
+2026-07-10 19:21:48,295  INFO     at4                             →  TAKEN
+2026-07-10 19:21:52,241  INFO     at5                             →  TAKEN
+2026-07-10 19:21:57,007  INFO     at6                             →  TAKEN
+2026-07-10 19:22:00,891  INFO     at7                             →  TAKEN
+2026-07-10 19:22:04,700  INFO     at8                             →  TAKEN
+2026-07-10 19:22:08,645  INFO     at9                             →  TAKEN
+2026-07-10 19:22:12,535  INFO     aua                             →  TAKEN
+2026-07-10 19:22:17,168  INFO     aub                             →  TAKEN
+2026-07-10 19:22:21,106  INFO     auc                             →  TAKEN
+2026-07-10 19:22:25,430  INFO     aud                             →  TAKEN
+2026-07-10 19:22:31,085  INFO     aue                             →  TAKEN
+2026-07-10 19:22:35,570  WARNING  Could not read status. Visible texts on screen: ['username', 'save', 'reserve username']
+2026-07-10 19:22:35,630  WARNING  Full page source saved to page_source_debug.xml for inspection.
+2026-07-10 19:22:35,630  INFO     auf                             →  ERROR
+2026-07-10 19:22:40,050  INFO     aug                             →  TAKEN
+2026-07-10 19:22:43,944  INFO     auh                             →  TAKEN
+2026-07-10 19:22:47,860  INFO     aui                             →  TAKEN
+2026-07-10 19:22:51,833  INFO     auj                             →  TAKEN
+2026-07-10 19:22:55,820  INFO     auk                             →  TAKEN
+2026-07-10 19:22:59,667  INFO     aul                             →  TAKEN
+2026-07-10 19:23:03,741  INFO     aum                             →  TAKEN
+2026-07-10 19:23:07,604  INFO     aun                             →  TAKEN
+2026-07-10 19:23:11,484  INFO     auo                             →  TAKEN
+2026-07-10 19:23:15,388  INFO     aup                             →  TAKEN
+2026-07-10 19:23:19,234  INFO     auq                             →  TAKEN
+2026-07-10 19:23:23,192  INFO     aur                             →  TAKEN
+2026-07-10 19:23:27,136  INFO     aus                             →  TAKEN
+2026-07-10 19:23:31,035  INFO     aut                             →  TAKEN
+2026-07-10 19:23:34,830  INFO     auu                             →  TAKEN
+2026-07-10 19:23:38,705  INFO     auv                             →  TAKEN
+2026-07-10 19:23:42,533  INFO     auw                             →  TAKEN
+2026-07-10 19:23:46,494  INFO     aux                             →  TAKEN
+2026-07-10 19:23:50,270  INFO     auy                             →  TAKEN
+2026-07-10 19:23:54,172  INFO     auz                             →  TAKEN
+2026-07-10 19:23:58,141  INFO     au0                             →  TAKEN
+2026-07-10 19:24:02,588  INFO     au1                             →  TAKEN
+2026-07-10 19:24:06,439  INFO     au2                             →  TAKEN
+2026-07-10 19:24:10,242  INFO     au3                             →  TAKEN
+2026-07-10 19:24:14,085  INFO     au4                             →  TAKEN
+2026-07-10 19:24:17,939  INFO     au5                             →  TAKEN
+2026-07-10 19:24:21,703  INFO     au6                             →  TAKEN
+2026-07-10 19:24:25,610  INFO     au7                             →  TAKEN
+2026-07-10 19:24:29,599  INFO     au8                             →  TAKEN
+2026-07-10 19:24:33,287  INFO     au9                             →  TAKEN
+2026-07-10 19:24:37,096  INFO     ava                             →  TAKEN
+2026-07-10 19:24:41,016  INFO     avb                             →  TAKEN
+2026-07-10 19:24:44,765  INFO     avc                             →  TAKEN
+2026-07-10 19:24:48,632  INFO     avd                             →  TAKEN
+2026-07-10 19:24:52,569  INFO     ave                             →  TAKEN
+2026-07-10 19:24:56,388  INFO     avf                             →  TAKEN
+2026-07-10 19:25:00,776  INFO     avg                             →  TAKEN
+2026-07-10 19:25:04,577  INFO     avh                             →  TAKEN
+2026-07-10 19:25:08,341  INFO     avi                             →  TAKEN
+2026-07-10 19:25:12,200  INFO     avj                             →  TAKEN
+2026-07-10 19:25:16,279  INFO     avk                             →  TAKEN
+2026-07-10 19:25:20,098  INFO     avl                             →  TAKEN
+2026-07-10 19:25:23,881  INFO     avm                             →  TAKEN
+2026-07-10 19:25:27,955  INFO     avn                             →  TAKEN
+2026-07-10 19:25:31,977  INFO     avo                             →  TAKEN
+2026-07-10 19:25:35,955  INFO     avp                             →  TAKEN
+2026-07-10 19:25:40,462  INFO     avq                             →  TAKEN
+2026-07-10 19:25:44,471  INFO     avr                             →  TAKEN
+2026-07-10 19:25:48,199  INFO     avs                             →  TAKEN
+2026-07-10 19:25:52,011  INFO     avt                             →  TAKEN
+2026-07-10 19:25:55,774  INFO     avu                             →  TAKEN
+2026-07-10 19:25:59,718  INFO     avv                             →  TAKEN
+2026-07-10 19:26:03,717  INFO     avw                             →  TAKEN
+2026-07-10 19:26:07,487  INFO     avx                             →  TAKEN
+2026-07-10 19:26:11,342  INFO     avy                             →  TAKEN
+2026-07-10 19:26:15,344  INFO     avz                             →  TAKEN
+2026-07-10 19:26:18,767  INFO     av0                             →  TAKEN
+2026-07-10 19:26:22,681  INFO     av1                             →  TAKEN
+2026-07-10 19:26:26,495  INFO     av2                             →  TAKEN
+2026-07-10 19:26:30,350  INFO     av3                             →  TAKEN
+2026-07-10 19:26:34,297  INFO     av4                             →  TAKEN
+2026-07-10 19:26:37,992  INFO     av5                             →  TAKEN
+2026-07-10 19:27:09,205  ERROR    Fatal error during batch: Message: The element 'By.clazz: android.widget.EditText' does not exist in DOM anymore; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.clazz: android.widget.EditText' does not exist in DOM anymore
+	at io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:119)
+	at io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:155)
+	at io.appium.uiautomator2.handler.Clear.safeHandle(Clear.java:42)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:267)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:261)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:288)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:1012)
+Traceback (most recent call last):
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 95, in _clear_and_type
+    self.driver.execute_script(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        "mobile: replaceElementValue",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        {"elementId": element.id, "value": text}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 407, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\errorhandler.py", line 125, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.InvalidArgumentException: Message: The following required parameter is missing: ["text"]
+Known required parameters are: ["elementId","text"]
+You have provided: ["elementId","value"]
+Stacktrace:
+BadParametersError: The following required parameter is missing: ["text"]
+Known required parameters are: ["elementId","text"]
+You have provided: ["elementId","value"]
+    at checkParams (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:126:11)
+    at validateExecuteMethodParams (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:209:26)
+    at AndroidUiautomator2Driver.executeMethod (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\commands\execute.js:26:65)
+    at AndroidUiautomator2Driver.execute (C:\Users\Gabriel\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\build\lib\commands\execute.js:24:27)
+    at runCommandPromise (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:120:29)
+    at C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\async-lock\lib\index.js:171:12
+    at AsyncLock._promiseTry (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\async-lock\lib\index.js:306:31)
+    at exec (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\async-lock\lib\index.js:170:9)
+    at AsyncLock.acquire (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\async-lock\lib\index.js:189:3)
+    at AndroidUiautomator2Driver.executeCommand (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\basedriver\driver.js:161:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async defaultBehavior (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js:587:20)
+    at async AppiumDriver.executeWrappedCommand (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js:694:22)
+    at async AppiumDriver.executeCommand (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js:598:21)
+    at async asyncHandler (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\build\lib\protocol\protocol.js:401:25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 219, in run_batch
+    status = self.check_username(username)
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 190, in check_username
+    self._clear_and_type(input_field, username)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel\v2\whatsapp-username-checker\main.py", line 101, in _clear_and_type
+    element.clear()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\webelement.py", line 158, in clear
+    self._execute(Command.CLEAR, data)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Gabriel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\appium\webdriver\errorhandler.py", line 125, in check_response
+    raise exception_class(msg=message, stacktrace=format_stacktrace(stacktrace))
+selenium.common.exceptions.StaleElementReferenceException: Message: The element 'By.clazz: android.widget.EditText' does not exist in DOM anymore; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.clazz: android.widget.EditText' does not exist in DOM anymore
+	at io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:119)
+	at io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:155)
+	at io.appium.uiautomator2.handler.Clear.safeHandle(Clear.java:42)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:267)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:261)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:288)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571)
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512)
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:1012)
+
+2026-07-10 19:27:09,228  INFO     ──────────────────────────────────────────────────
+2026-07-10 19:27:09,228  INFO     Session done. Checked 575 usernames.
+2026-07-10 19:27:09,228  INFO     Available : 0
+2026-07-10 19:27:09,229  INFO     Taken     : 564
+2026-07-10 19:27:09,229  INFO     Invalid   : 0
+2026-07-10 19:27:09,229  INFO     Errors    : 11
+2026-07-10 19:27:09,229  INFO     Results saved to: results.csv
+2026-07-10 19:59:38,710  INFO     Loaded 46660 usernames from 'usernames.txt'
+2026-07-10 19:59:38,710  INFO     Connecting to Appium server at http://localhost:4723 …
+2026-07-10 19:59:45,106  INFO     Resuming — skipping 788 already-checked usernames.
+2026-07-10 19:59:45,110  INFO     45868 usernames to check.
+2026-07-10 19:59:56,837  INFO     av6                             →  TAKEN
+2026-07-10 20:00:02,169  INFO     av7                             →  TAKEN
+2026-07-10 20:00:06,991  INFO     av8                             →  TAKEN
+2026-07-10 20:00:12,002  INFO     av9                             →  TAKEN
+2026-07-10 20:00:17,030  INFO     awa                             →  TAKEN
+2026-07-10 20:00:20,101  INFO     ──────────────────────────────────────────────────
+2026-07-10 20:00:20,101  INFO     Session done. Checked 5 usernames.
+2026-07-10 20:00:20,101  INFO     Available : 0
+2026-07-10 20:00:20,101  INFO     Taken     : 5
+2026-07-10 20:00:20,101  INFO     Invalid   : 0
+2026-07-10 20:00:20,101  INFO     Errors    : 0
+2026-07-10 20:00:20,102  INFO     Results saved to: results.csv
